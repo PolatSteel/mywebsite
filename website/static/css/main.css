@@ -1,0 +1,47 @@
+body {
+    background-color: #F8F8F8!important;
+}
+
+#profile-wrapper {
+    text-align: center;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* main.css */
+
+/* Sosyal medya ikonlarının hizalanması */
+.social-links {
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px; /* İkonlar arasında boşluk */
+}
+
+.social-links img {
+    width: 24px; /* İkon boyutu */
+    height: 24px; /* İkon boyutu */
+    vertical-align: middle; /* İkonları hizala */
+}
+
+.social{
+    width: 30px;
+    height: 0px;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
