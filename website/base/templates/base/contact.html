@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% load static %}
+<!--
+<h3>Hello World</h3>
+<img src="{% static 'images/polat.jpeg' %}">
+
+-->
+{% block title %}PW | Contact{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polat Bozuklu</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+
+            .custom-img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin: 0 auto;
+                display: block;
+            }
+    
+            .card-body {
+                background-color: rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                border-radius: 10px 10px 0 0;
+                box-shadow: 0 4px 8px rgb(0, 0, 0);
+            }
+    
+            .list-group-item {
+                border-radius: 0 0 10px 10px;
+            }
+    
+
+    </style>
+</head>
+<body>
+    <div class="centered-container mt-4">
+            <img src="{% static 'images/polat.jpeg' %}" class="card-img-top custom-img" alt="...">
+            <div class="card-bodyy">
+              <h3 class="card-title">Hi Againn !</h3>
+              <h3 class="card-text">Please contact me to get to know me better.</h3>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-items"></li>
+              <li class="list-group-items"><p> ★ 05## ### #### </p></li>
+              <li class="list-group-items"><p> polatcode@gmail.com ★ </p></li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.instagram.com/polat.dll/" class="card-link">Instagram</a>
+              <a href="https://www.linkedin.com/in/polat-bozuklu-1031a22a3/" class="card-link">Linkedin</a>
+            </div>
+          </div>
+    {% endblock %}
+    <div class="polat"></div>
+</body>
+</html>
